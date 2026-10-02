@@ -122,6 +122,9 @@ text-align:right;
 
 }
 @media screen and (min-width:320px) and (max-width:768px){
+    .welcome .container {
+     width: calc(100% - 40px);
+  }
      .welcome {
     padding: 15x 0;
 
@@ -129,11 +132,17 @@ text-align:right;
   .welcome h2 {
     font-size: 20px;
     text-align: center;
+    margin-bottom: 10px;
   }
 
   .welcome a {
-    overflow: hidden;
+    display: none;
   }
+  .course .profile img {
+   width: 20px;
+   height: 20px;
+}
+ 
   .courses {
     gap: 20px;
     padding: 15px 0;
@@ -141,9 +150,16 @@ text-align:right;
   .course {
     width: 100%;
   }
+  .course img{
+    width: 100%;
+   
+  }
 }
 
 @media screen and (min-width:768px) and (max-width:922px) {
+    .welcome .container {
+    width: calc(100% - 80px);
+  }
  .welcome {
     padding: 35px 0;
     border-left: 15px solid #FFFFFF;
@@ -245,6 +261,10 @@ text-align:right;
     padding: 20px;   
 }
 @media screen and (min-width:320px) and (max-width:768px) {
+     .choice .container {
+    width: calc(100% - 40px);
+  }
+
       .choice h2 {
     margin-top: 40px;
     margin-bottom: 20px;
@@ -264,6 +284,9 @@ text-align:right;
 }
 
 @media screen and (min-width:768px) and (max-width:922px) {
+     .choice .container {
+    width: calc(100% - 80px);
+  }
   .choice h2 {
     margin-top: 50px;
     font-size: 25px;
