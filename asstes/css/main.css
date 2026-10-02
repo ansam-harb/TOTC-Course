@@ -121,60 +121,51 @@ text-align:right;
     border-radius: 2px;
 
 }
-@media screen and (min-width:320px) and (max-width:768px) {
-    .welcome{
- 
-      padding:30px 0;
-      
-}
- .welcome .container{
-   width:calc(100% - 40px);
- }
- .welcome h2{
+@media screen and (min-width:320px) and (max-width:768px){
+     .welcome {
+    padding: 15x 0;
+
+  }
+  .welcome h2 {
     font-size: 20px;
-    
-}
-.welcome a{
-  
-    font-size: 12px;
-    padding: 10px;
-  
-}
-.courses{
+    text-align: center;
+  }
 
-    gap: 50px;
-    padding: 30px;
-    width: calc( ( 100% -20px ) / 3);
+  .welcome a {
+    overflow: hidden;
+  }
+  .courses {
+    gap: 20px;
+    padding: 15px 0;
+  }
+  .course {
+    width: 100%;
+  }
 }
 
-}
 @media screen and (min-width:768px) and (max-width:922px) {
-        .welcome{
- 
-      padding:40px 0;
-      
-}
- .welcome .container{
-   width:calc(100% - 120px);
- }
- .welcome h2{
+ .welcome {
+    padding: 35px 0;
+    border-left: 15px solid #FFFFFF;
+    border-right: 15px solid #FFFFFF;
+    
+  }
+
+  .welcome h2 {
     font-size: 25px;
-    
-}
-.welcome a{
-    margin-left: 6px;
+  }
+  .welcome a{
+    margin-left: 20px;
+  }
 
-}
-.courses{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 15px;
-    padding: 30px;
-    
-}
+  .courses {
+    gap: 30px;
+    padding: 20px 0;
+  }
 
+  .course {
+    width: calc((100% - 30px) / 2);
+  }
 }
 .choice{
     font-family: var(--priamryFont);
