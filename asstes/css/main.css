@@ -170,9 +170,120 @@ text-align:right;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 25px;
+    gap: 15px;
     padding: 30px;
     
 }
 
+}
+.choice{
+    font-family: var(--priamryFont);
+        
+}
+.choice h2{
+   margin-top: 70px;
+   margin-bottom: 30px;
+   font-size:27px ;
+   font-weight:600 ;
+   color: #252641;
+}
+.filed{
+    display: flex;
+    flex-wrap: wrap;
+    gap:50px;
+}
+.icon{
+    width: calc((100% - 150px) / 4);
+    align-items: center;
+     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 0px 10px 30px #00000014;
+    padding: 30px;
+    
+}
+.icon h3{
+    font-weight: 600;
+    color:#000000;
+    font-size: 24px;
+    padding: 12px;
+}
+.icon p{
+    color: #696984;
+    font-size: 14px;
+    text-align: center;
+}
+
+.icon .design{
+    background-color: #49BBBD4D;
+    padding: 20px;
+}
+.icon .development{
+    background-color: #5B72EE4D;
+    padding: 20px;
+}
+.icon .money{
+    background-color: #9DCCFF4D;
+    padding: 20px;
+}
+.icon .business1{
+    background-color: #00CBB84D;
+    padding: 20px;
+
+}
+.icon .money{
+    background-color: #9DCCFF4D;
+    padding: 20px;
+}
+.icon .marketing{
+    background-color: #F48C064D;
+    padding: 20px;
+}
+.icon .photogrphy{
+    background-color: #EE645B4D;
+    padding: 20px;
+}
+.icon .acting{
+    background-color:#2526414D ;
+    padding: 20px;
+}
+.icon .business{
+   background-color:#00CBB84D ;
+    padding: 20px;   
+}
+@media screen and (min-width:320px) and (max-width:768px) {
+      .choice h2 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 22px;
+    text-align: center;
+  }
+  .field {
+    gap: 20px;
+  }
+  .icon {
+    width: 100%;
+    padding: 20px;
+  }
+  .icon h3 {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width:768px) and (max-width:922px) {
+  .choice h2 {
+    margin-top: 50px;
+    font-size: 25px;
+  }
+
+  .field {
+    gap: 30px;
+  }
+
+  .icon {
+    width: calc((100% - 60px) / 2);
+  }
+  
 }
