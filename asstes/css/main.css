@@ -512,3 +512,214 @@ align-items: center;
   }
     
 }
+.getchioce{
+    border-top: 0px;
+    border-bottom: 0px;
+    border-left: 20px solid #FFFFFF;
+    border-right: 20px solid #FFFFFF;
+    margin-top: 50px;
+    font-family: var(--priamryFont);
+      padding:40px 0;
+}
+.getchioce h2{
+    font-size:25px ;
+    font-weight: 500;
+    color: #000000;
+}
+.getchioce a{
+    color:#49BBBD;
+    font-size: 15px;
+    font-weight: 700;
+
+}
+.solutions{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 30px;
+    
+}
+.solution{
+     background-color: #FFFFFF;
+    padding: 13px ;    
+    border-radius: 5%;
+    width: calc((100% - 90px) / 4);
+    align-items: center;
+     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-shadow: 0px 10px 30px #00000014;
+     
+}
+.solution h3{
+font-size:18px ;
+font-weight:500 ;
+color: #252641;
+padding: 5px;
+}
+.solution p{
+    color: #696984;
+    font-size: 15px;
+    padding: 10px 0; 
+}
+.soluimg {
+    width: 100%;
+    height: auto;
+}
+.information{
+    padding: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: 500;
+    color: #696984;
+    gap: 65px;
+
+}
+.leftinfo{
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+gap: 5px;
+
+}
+.rightinfo{
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+gap: 5px;
+
+}
+.solution .profile{
+    display: flex;
+  flex-wrap: wrap;
+ text-align:left;
+  gap: 10px;
+  padding: 10px 0;
+}
+.solution .profile span{
+font-weight: 500;
+color: #000000;
+font-size: 15px;
+ 
+}
+.solution .moneydata{
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 55px;  
+}
+.solution .salary{
+display: flex;
+flex-wrap: wrap;
+gap: 10px;
+padding: 17px 0;
+align-items: center;
+}
+.solution .salary .oldsalary{
+    font-size:15px ;
+   text-decoration: line-through;
+    font-weight:300 ;
+    font-style: italic;
+    color: #00000080;
+
+}
+.solution .salary .newsalary{
+    color: #49BBBD;
+    font-size:20px ;
+    font-weight: 700;
+}
+@media screen and (min-width:320px) and (max-width:768px) {
+ .getchioce .container{
+    width: calc(100% - 40px);
+    }
+  .getchioce{
+    margin-top: 60px;
+    padding: 30px 0;
+    border-left: 10px solid #FFFFFF;
+    border-right: 10px solid #FFFFFF;
+  }
+
+  .getchioce h2 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .getchioce a {
+    text-align: center;
+    font-size: 14px;
+  }
+
+  .solutions {
+    gap: 25px;
+    padding: 15px 0;
+  }
+
+  .solution {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .solution h3 {
+    font-size: 17px;
+    text-align: center;
+  }
+
+  .solution p {
+    font-size: 14px;
+    text-align: center;
+  }
+  .getchioce .solution .information {
+     gap: 75px;
+     padding: 15px;
+  }
+}
+@media screen and (min-width:768px) and (max-width:922px) {
+    .getchioce .container{
+    width: calc(100% - 80px);
+    }
+  .getchioce {
+    margin-top: 30px;
+    padding: 20px 0;
+    border-left: 10px solid #FFFFFF;
+    border-right: 10px solid #FFFFFF;
+  }
+
+  .getchioce h2 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .getchioce a {
+    text-align: center;
+    font-size: 17px;
+  }
+
+  .solutions {
+    gap: 30px;
+    padding: 15px 0;
+  }
+
+  .solution {
+   width: calc((100% - 30px) / 2);
+    padding: 10px;
+  }
+
+  .solution h3 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .solution p {
+    font-size: 15px;
+    text-align: center;
+  }
+  .getchioce .solution .information {
+     gap: 80px;
+     padding: 15px;
+  }
+}
+    
