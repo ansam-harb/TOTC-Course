@@ -722,4 +722,142 @@ align-items: center;
      padding: 15px;
   }
 }
+.footer{
+    font-family: var(--priamryFont);
+    background-color: #252641;
+      display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding : 70px ;
+
+}
+.footerInput input{
+  width: 250px;
+  height: 30px;
+  padding: 20px;
+  background: transparent;              
+  border: 1px solid #FFFFFF80;          
+  border-radius: 30px;
+  color: #FFFFFF;                         
+  font-size: 17px;
+  
+}
+.footer h2 {
+    font-size: 21px;
+margin-top: 10px;
+padding:  20px 0;
+font-weight:500 ;
+color: #B2B3CF;
+align-items: center;
+}
+.footerInput button{
+    width: 100px;
+   height: 40px;
+  padding: 5px;
+  background-color: #49BBBD;
+  border-radius: 30px;
+  color: #FFFFFF;
+  font-size: 15px;
+  font-weight: 500;
+  border: none;
+
+ 
+}
+ .footerInput {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 7px;
     
+ }
+ .links a{
+    font-size:14px ;
+    color: #B2B3CF;
+   padding: 20px;
+
+}
+.footer .siteRight{
+  text-align:center ;
+    width: 100%;
+    font-size:15px ;
+    color: #B2B3CF;
+    align-items: center;
+
+}
+.footer .row {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;   
+}
+@media screen and (min-width:320px) and (max-width:768px) {
+    .footer .container{
+    width: calc(100% - 40px);
+    }
+    .footer .row{
+        gap:15px
+    }
+    .footer{
+        padding: 35px ;
+        
+        
+    }
+ .footerInput input{
+  width: 150px;
+  padding: 10px;          
+  font-size: 13px;
+  
+}
+.footer h2 {
+ font-size: 15px;
+text-align: center;
+padding:  10px 0;
+}
+.footerInput button{
+    width: 80px;
+   height: 30px;
+  font-size: 13px;
+}
+ .links a{
+    font-size:10px ;
+   padding: 5px;
+
+}
+.footer .siteRight{
+    font-size:12px ;
+
+}
+  .footerLogo img {
+    width: 100%;
+  }
+}
+@media screen and (min-width:768px) and (max-width:922px) {
+    .footer .container{
+    width: calc(100% - 80px);
+    }
+    .footer{
+        padding: 50px ;   
+    }
+ .footerInput input{
+  width: 150px;
+  padding: 20px;          
+  font-size: 15px;
+  
+}
+
+.footer h2 {
+text-align: center;
+padding:  20px 0;
+}
+.footerInput button{
+    height: 40px;
+    width: 90px;
+  font-size: 15px;
+}
+ .links a{
+   padding: 10px;
+
+}
+
+}
